@@ -1,0 +1,24 @@
+/* 为风景横幅添加遮罩，使浅色文字在图片上保持清晰。 */
+#page-header:not(.not-top-img)::before {
+  background-color: rgba(20, 43, 57, 0.27);
+}
+#site-title, #site-subtitle, #page-header #site-name {
+  text-shadow: 0 2px 8px rgba(17, 39, 52, 0.45);
+}
+/* 正文保留阅读空间，图片在窄屏中随内容宽度缩放。 */
+#article-container {
+  line-height: 1.9;
+}
+#article-container img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+#article-container img[src$="avatar.svg"] {
+  width: 112px;
+  margin: 24px auto;
+}
+@media screen and (max-width: 768px) {
+  #site-title { font-size: 2rem; }
+  #site-subtitle { font-size: 1rem; }
+  #article-container table { font-size: 0.9rem; }
+}

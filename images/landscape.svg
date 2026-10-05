@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="原创山景插画：晨光、远山与湖泊">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#83b2c2"/><stop offset=".68" stop-color="#e7e2c9"/><stop offset="1" stop-color="#d0dbd2"/></linearGradient>
+    <linearGradient id="water" x2="0" y2="1"><stop stop-color="#a4c8c8"/><stop offset="1" stop-color="#3d7181"/></linearGradient>
+    <linearGradient id="front" x2="0" y2="1"><stop stop-color="#366372"/><stop offset="1" stop-color="#183b50"/></linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1920v1080H0z"/>
+  <circle cx="1410" cy="264" r="88" fill="#fff0cd" opacity=".9"/>
+  <path d="M0 558 180 444 310 510 530 300 716 450 920 370 1080 506 1270 397 1435 515 1650 327 1920 517v563H0z" fill="#96b4b9"/>
+  <path d="m470 361 60-61 88 71-86-28zM1598 378l52-51 76 55-67-23z" fill="#e8ece3" opacity=".65"/>
+  <path d="M0 661 200 526 390 624 618 467 780 638 999 500 1160 668 1380 532 1600 676 1814 490 1920 608v472H0z" fill="#638e9b"/>
+  <path d="M0 715c300-50 554-38 870 6s610 24 1050-10v369H0z" fill="url(#water)"/>
+  <g fill="none" stroke="#dce6de" stroke-width="3" opacity=".35">
+    <path d="M570 779h830M730 824h640M860 867h380M698 927h630M480 1000h910"/>
+  </g>
+  <path d="M0 570 160 636 252 723 384 784 496 854 683 931 808 1080H0z" fill="url(#front)"/>
+  <path d="M1920 640 1808 702 1710 731 1597 835 1512 918 1340 999 1257 1080h663z" fill="url(#front)"/>
+  <g fill="#234a59">
+    <path d="m85 518-58 164h37l-53 103h145l-51-103h39zM242 680l-47 130h29l-43 92h120l-41-92h29zM1765 652l-47 133h28l-43 91h124l-44-91h29zM1855 505l-63 176h40l-57 118h160l-59-118h41z"/>
+  </g>
+</svg>

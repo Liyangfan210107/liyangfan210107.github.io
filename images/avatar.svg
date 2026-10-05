@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" role="img" aria-label="通用人物头像，待替换">
+  <rect width="200" height="200" rx="100" fill="#e4eff0"/>
+  <circle cx="100" cy="77" r="34" fill="#7fa7af"/>
+  <path d="M35 175c2-41 27-63 65-63s63 22 65 63" fill="#528c9a"/>
+</svg>
